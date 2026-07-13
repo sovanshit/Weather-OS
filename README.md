@@ -2,7 +2,7 @@
 
 <img src="Weather Banner.png" alt="Weather OS Banner" width="26%">
 
-<br><br>
+<br>
 
 # 🌩️ Weather OS
 
