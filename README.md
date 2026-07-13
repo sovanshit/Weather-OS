@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Weather Banner.png" alt="Weather OS Banner" width="55%">
+<img src="Weather Banner.png" alt="Weather OS Banner" width="26%">
 
 <br><br>
 
