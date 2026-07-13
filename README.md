@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Weather OS.png" alt="Weather OS Banner" width="30%">
+<img src="Weather Banner.png" alt="Weather OS Banner" width="55%">
 
 <br><br>
 
@@ -54,11 +54,11 @@ Weather OS follows **Clean Architecture and MVVM principles**, separating data, 
 
 # 🎯 Project Objectives
 
-- Build a modern native Android weather platform.
+- Build a modern native Android weather intelligence platform.
 - Display real-time location-based weather information.
-- Visualize complex atmospheric data clearly.
+- Visualize atmospheric and forecast data.
 - Explore futuristic weather UI and UX concepts.
-- Develop weather analytics and forecast charts.
+- Develop interactive weather analytics.
 - Implement location and city-based weather discovery.
 - Build an intelligent weather assistant architecture.
 - Explore interactive radar and globe visualization.
@@ -208,7 +208,7 @@ H --> M[🌍 Weather Tools]
 | 📈 Orbit | Atmospheric analysis and predictive weather charts |
 | 🛰️ Radar | Interactive weather radar console architecture |
 | 🤖 AI Core | Conversational weather intelligence interface |
-| 🌍 More | Access to advanced weather tools and system modules |
+| 🌍 More | Advanced weather tools and system modules |
 | ❤️ Saved Places | Manage frequently monitored locations |
 | 🔄 Compare Cities | Compare weather telemetry between locations |
 | 🌐 3D Globe | Experimental coordinate-based weather globe |
@@ -219,20 +219,20 @@ H --> M[🌍 Weather Tools]
 
 # 📸 Project Screenshots
 
-The following screenshots demonstrate the primary Weather OS interface and atmospheric intelligence modules.
+The following screenshots demonstrate the primary **Weather OS atmospheric intelligence, analytics, radar, AI, and visualization modules**.
 
-> All mobile screenshots are intentionally displayed at a compact width for a cleaner GitHub README layout.
+> 📱 Screenshots are displayed in a compact mobile format for a clean GitHub documentation experience.
 
 ---
 
-# 🌩️ Main Weather Intelligence Dashboard
+# 🌩️ Weather OS Dashboard
 
-The main dashboard displays current weather conditions, location information, temperature, feels-like data, weather warnings, atmospheric reports, and hourly forecast information.
+The main Weather OS dashboard provides location-based current weather, live temperature, feels-like conditions, minimum and maximum temperatures, weather advisories, atmospheric reports, and hourly forecast telemetry.
 
 <div align="center">
 
-<img src="screenshots/Weather Dashboard.png"
-     alt="Weather OS Main Dashboard"
+<img src="screenshots/Weather OS Dashboard.png"
+     alt="Weather OS Dashboard"
      width="300">
 
 <br>
@@ -258,13 +258,17 @@ The main dashboard displays current weather conditions, location information, te
 
 # 🌡️ Atmospheric Gauges & Weather Insights
 
-Weather OS visualizes essential atmospheric telemetry through interactive gauges and insight cards.
+Weather OS visualizes essential atmospheric telemetry using modern gauges, weather cards, and contextual insight panels.
 
 <div align="center">
 
 <img src="screenshots/Atmospheric Gauges.png"
      alt="Weather OS Atmospheric Gauges"
      width="300">
+
+<br>
+
+<sub>☀️ UV • 💧 Humidity • 🌬️ Wind • 🌅 Solar Orbit • 🤖 Weather Insights</sub>
 
 </div>
 
@@ -274,7 +278,9 @@ Weather OS visualizes essential atmospheric telemetry through interactive gauges
 |---------|-------------|
 | ☀️ UV Index | Solar UV exposure monitoring |
 | 💧 Humidity | Atmospheric humidity percentage |
-| 🌬️ Wind Speed | Wind speed and directional telemetry |
+| 💦 Dew Point | Atmospheric moisture information |
+| 🌬️ Wind Speed | Wind speed telemetry |
+| 🧭 Wind Heading | Wind directional information |
 | 🌅 Sunrise | Daily sunrise information |
 | 🌇 Sunset | Daily sunset information |
 | 🌧️ Precipitation Insight | Contextual rainfall observation |
@@ -282,19 +288,19 @@ Weather OS visualizes essential atmospheric telemetry through interactive gauges
 
 ---
 
-# 🗓️ 7-Day Forecast & Predictive Weather Analytics
+# ⚠️ Weather Warning & Predictive Analytics
 
-Weather OS provides a structured **7-day forecast system** with daily weather conditions, precipitation probability, maximum and minimum temperatures, weather alerts, and predictive temperature analytics.
+Weather OS combines structured forecast information with severe weather advisories and predictive temperature visualization.
 
 <div align="center">
 
-<img src="screenshots/7-Day Forecast.png"
-     alt="Weather OS 7-Day Forecast and Predictive Analytics"
+<img src="screenshots/Weather Warning Analytics.png"
+     alt="Weather OS Warning and Predictive Analytics"
      width="300">
 
 <br>
 
-<sub>📊 7-Day Forecast • ⚠️ Weather Alerts • 📈 Predictive Temperature Analytics</sub>
+<sub>🗓️ Forecast • ⚠️ Severe Alerts • 📈 Predictive Weather Analytics</sub>
 
 </div>
 
@@ -314,13 +320,17 @@ Weather OS provides a structured **7-day forecast system** with daily weather co
 
 # 📈 Meteorological Orbit Analysis
 
-The Orbit Analysis module provides advanced atmospheric data visualization with selectable **temperature, rain percentage, wind, and humidity analytics**.
+The Meteorological Orbit Analysis module provides interactive atmospheric data visualization for **temperature, rain percentage, wind, and humidity**.
 
 <div align="center">
 
-<img src="screenshots/Orbit Analysis.png"
+<img src="screenshots/Meteorological Orbit Analysis.png"
      alt="Meteorological Orbit Analysis"
      width="300">
+
+<br>
+
+<sub>🌡️ Temperature • 🌧️ Rain • 🌬️ Wind • 💧 Humidity • 📈 Climate Tracks</sub>
 
 </div>
 
@@ -340,13 +350,17 @@ The Orbit Analysis module provides advanced atmospheric data visualization with 
 
 # 🛰️ Orbit Weather Radar Console
 
-The experimental radar console explores coordinate-based weather scan mapping and atmospheric event visualization.
+The Orbit Weather Radar Console explores coordinate-based weather scan mapping and atmospheric event visualization.
 
 <div align="center">
 
-<img src="screenshots/Weather Radar.png"
-     alt="Weather OS Radar Console"
+<img src="screenshots/Orbit Weather Radar.png"
+     alt="Orbit Weather Radar Console"
      width="300">
+
+<br>
+
+<sub>📡 Radar Telemetry • ⚡ Lightning • 🌩️ Storm Cells • ▶️ Timeline Playback</sub>
 
 </div>
 
@@ -364,19 +378,23 @@ The experimental radar console explores coordinate-based weather scan mapping an
 | ▶️ Playback Controls | Radar animation playback |
 | ⚙️ Animation Rate | Adjustable frame speed |
 
-> 🚧 **Development Note:** The radar visualization is an experimental module and is being improved toward more accurate weather-layer integration, better storm visualization, enhanced map overlays, and scalable radar data processing.
+> 🚧 **Development Note:** The radar visualization is experimental and is being improved toward better weather-layer integration, enhanced storm visualization, more advanced map overlays, and scalable radar data processing.
 
 ---
 
 # 🤖 Neural Intelligence Core
 
-The AI Core is a conversational weather intelligence interface designed to analyze weather context and respond to weather-related questions.
+The Neural Intelligence Core is an advanced conversational weather intelligence interface designed to understand weather context and provide intelligent weather-related assistance.
 
 <div align="center">
 
-<img src="screenshots/AI Core.png"
+<img src="screenshots/Neural Intelligence Core.png"
      alt="Weather OS Neural Intelligence Core"
      width="300">
+
+<br>
+
+<sub>🧠 Weather Intelligence • 💬 Contextual Queries • 🌦️ Forecast Assistance</sub>
 
 </div>
 
@@ -385,8 +403,8 @@ The AI Core is a conversational weather intelligence interface designed to analy
 | Capability | Description |
 |------------|-------------|
 | 🌧️ Rain Questions | Analyze rainfall and forecast context |
-| 🏏 Cricket Suitability | Weather-based outdoor sports insights |
-| 🚶 Outdoor Activities | Analyze weather suitability |
+| 🏏 Cricket Suitability | Weather-based sports suitability insights |
+| 🚶 Outdoor Activities | Analyze outdoor weather conditions |
 | 👕 Clothing Guidance | Weather-aware clothing suggestions |
 | 🌦️ Forecast Questions | Explain upcoming weather conditions |
 | 💬 Smart Queries | Pre-configured weather question prompts |
@@ -398,13 +416,17 @@ The AI Core is a conversational weather intelligence interface designed to analy
 
 # ⚙️ Hardware Telemetry Preferences
 
-Weather OS includes configurable weather display, environmental, and rendering preferences.
+Weather OS provides configurable weather units, time formats, environmental controls, and atmosphere rendering preferences.
 
 <div align="center">
 
-<img src="screenshots/Weather Settings.png"
-     alt="Weather OS Hardware Telemetry Preferences"
+<img src="screenshots/Hardware Telemetry Preferences.png"
+     alt="Hardware Telemetry Preferences"
      width="300">
+
+<br>
+
+<sub>🌡️ Units • 🌬️ Wind Metrics • 🕐 Time Format • 🔊 Nature Sounds • 🎨 Render Quality</sub>
 
 </div>
 
@@ -416,20 +438,24 @@ Weather OS includes configurable weather display, environmental, and rendering p
 | 🌬️ Wind Metrics | Metric / Imperial |
 | 🕐 Time Format | System / 12-Hour / 24-Hour |
 | 🔊 Nature Sounds | Enable or disable ambient weather sounds |
-| 🌦️ Atmosphere Engine | Automatically match visuals to live weather |
+| 🌦️ Atmosphere Engine | Match visual themes with live weather |
 | 🎨 Render Quality | Eco / Balanced / High |
 
 ---
 
 # 🚀 Space Deck Commands
 
-The Space Deck acts as the advanced tools hub for Weather OS.
+The Space Deck Commands interface acts as the central hub for Weather OS advanced tools and secondary atmospheric subsystems.
 
 <div align="center">
 
-<img src="screenshots/Space Deck.png"
+<img src="screenshots/Space Deck Commands.png"
      alt="Weather OS Space Deck Commands"
      width="300">
+
+<br>
+
+<sub>❤️ Saved Places • 🔄 City Comparison • 🌐 Globe • 🎮 Storm Runner • ⚙️ Settings</sub>
 
 </div>
 
@@ -448,13 +474,17 @@ The Space Deck acts as the advanced tools hub for Weather OS.
 
 # 🔄 Dual Weather Comparer
 
-The Dual Weather Comparer enables weather comparison between supported locations and cities across India.
+The Dual Weather Comparer is designed to compare weather telemetry between supported locations and cities across India.
 
 <div align="center">
 
-<img src="screenshots/City Comparison.png"
+<img src="screenshots/Dual Weather Comparer.png"
      alt="Weather OS Dual Weather Comparer"
      width="300">
+
+<br>
+
+<sub>🌍 City Comparison • 🌡️ Temperature • 💧 Humidity • 🌬️ Wind • 🌫️ AQI</sub>
 
 </div>
 
@@ -463,25 +493,29 @@ The Dual Weather Comparer enables weather comparison between supported locations
 | Metric | Description |
 |--------|-------------|
 | 🌡️ Temperature | Compare current temperature |
-| 🌦️ Conditions | Compare weather conditions |
+| 🌦️ Conditions | Compare current weather conditions |
 | 💧 Humidity | Compare humidity levels |
 | 🌬️ Wind | Compare wind telemetry |
 | 🌫️ AQI | Compare available air-quality information |
 | 🧠 Core Logs | Generate comparative weather observations |
 
-> 🌍 The location architecture is designed for scalable city search and weather comparison using geocoding and weather data services instead of maintaining static temperature data manually.
+> 🌍 The architecture is designed for scalable Indian city search and comparison using geocoding and weather data services instead of maintaining static city temperature records manually.
 
 ---
 
 # 🌐 3D Coordinates Globe
 
-The 3D Coordinates Globe is an experimental atmospheric visualization concept.
+The 3D Coordinates Globe is an experimental atmospheric and meteorological coordinate visualization concept.
 
 <div align="center">
 
-<img src="screenshots/3D Globe.png"
+<img src="screenshots/3D Coordinates Globe.png"
      alt="Weather OS 3D Coordinates Globe"
      width="300">
+
+<br>
+
+<sub>🌍 Globe Visualization • 📍 Coordinates • 🛰️ Orbit Telemetry • 🌦️ Meteorological Grid</sub>
 
 </div>
 
@@ -490,13 +524,44 @@ The 3D Coordinates Globe is an experimental atmospheric visualization concept.
 | Feature | Description |
 |---------|-------------|
 | 🌍 Globe Visualization | Experimental atmospheric globe interface |
-| 👆 Drag Interaction | Globe rotation concept |
+| 👆 Drag Interaction | Interactive globe rotation concept |
 | 📍 Space Labels | Coordinate marker architecture |
 | 🛰️ Orbit Spin | Simulated orbital telemetry |
 | 🧭 Polar Axis | Axis information visualization |
 | 🌦️ Meteorological Grid | Experimental weather-grid architecture |
 
-> 🚧 The 3D globe is currently a visualization concept and is not a complete satellite meteorological system. Future development focuses on improved globe rendering, interactive geographic coordinates, weather markers, and live atmospheric data layers.
+> 🚧 The 3D globe is currently an experimental visualization concept and is not a complete satellite meteorological system. Future improvements focus on enhanced globe rendering, geographic interaction, weather markers, and live atmospheric data layers.
+
+---
+
+# ⛈️ Dynamic Thunderstorm Atmosphere
+
+Weather OS includes a dynamic atmosphere engine designed to adapt the application's environment to current weather conditions.
+
+<div align="center">
+
+<img src="screenshots/Dynamic Thunderstorm Atmosphere.png"
+     alt="Weather OS Dynamic Thunderstorm Atmosphere"
+     width="300">
+
+<br>
+
+<sub>🌧️ Rain Animation • ⚡ Thunderstorm Environment • 🌦️ Adaptive Weather Visuals</sub>
+
+</div>
+
+### Dynamic Atmosphere Features
+
+| Feature | Description |
+|---------|-------------|
+| 🌧️ Rain Particles | Animated environmental rain effects |
+| ⚡ Thunderstorm Theme | Storm-inspired interface environment |
+| 🌦️ Weather Adaptation | Visual atmosphere based on weather context |
+| ✨ Particle Engine | Environmental particle visualization |
+| 🎨 Dynamic UI | Weather-responsive interface styling |
+| 📱 Compose Rendering | Native Android visual implementation |
+
+> 🌦️ The atmosphere engine is continuously being improved for smoother animations, better environmental effects, improved performance, and more accurate visual adaptation to live weather conditions.
 
 ---
 
@@ -557,8 +622,23 @@ H --> M[More Modules]
 │           └── AndroidManifest.xml
 │
 ├── 📂 assets
+│
 ├── 📂 screenshots
+│   ├── Weather OS Dashboard.png
+│   ├── Atmospheric Gauges.png
+│   ├── Weather Warning Analytics.png
+│   ├── Meteorological Orbit Analysis.png
+│   ├── Orbit Weather Radar.png
+│   ├── Neural Intelligence Core.png
+│   ├── Hardware Telemetry Preferences.png
+│   ├── Space Deck Commands.png
+│   ├── Dual Weather Comparer.png
+│   ├── 3D Coordinates Globe.png
+│   └── Dynamic Thunderstorm Atmosphere.png
+│
 ├── 📂 gradle
+│
+├── 📜 Weather Banner.png
 ├── 📜 build.gradle.kts
 ├── 📜 settings.gradle.kts
 ├── 📜 gradle.properties
@@ -644,11 +724,15 @@ AI_API_KEY=YOUR_AI_API_KEY
 git clone https://github.com/sovanshit/Weather-OS.git
 ```
 
-## 2️⃣ Open the Project
+## 2️⃣ Navigate to the Project
 
-Open **Android Studio**.
+```bash
+cd Weather-OS
+```
 
-Select:
+## 3️⃣ Open in Android Studio
+
+Open **Android Studio** and select:
 
 ```text
 File → Open
@@ -656,9 +740,9 @@ File → Open
 
 Choose the `Weather-OS` project folder.
 
-## 3️⃣ Sync Gradle
+## 4️⃣ Sync Gradle
 
-Allow Android Studio to complete **Gradle Sync**.
+Allow Android Studio to complete the Gradle synchronization process.
 
 If required:
 
@@ -666,21 +750,20 @@ If required:
 File → Sync Project with Gradle Files
 ```
 
-## 4️⃣ Configure API Keys
+## 5️⃣ Configure API Keys
 
-Copy:
+Use `.env.example` as the reference for required API credentials.
 
-```text
-.env.example
+```env
+WEATHER_API_KEY=YOUR_WEATHER_API_KEY
+AI_API_KEY=YOUR_AI_API_KEY
 ```
 
-Configure the required development API credentials using the project's supported local configuration system.
+## 6️⃣ Run the Application
 
-## 5️⃣ Run the Application
+Connect a physical Android device or start an Android Emulator.
 
-Connect an Android device or launch an Android Emulator.
-
-Click:
+Select the `app` configuration and click:
 
 ```text
 ▶ Run 'app'
@@ -690,7 +773,7 @@ Click:
 
 # 🔒 Privacy & Security
 
-Weather OS is designed with secure development practices in mind.
+Weather OS is designed with secure application development practices in mind.
 
 | Feature | Description |
 |---------|-------------|
@@ -732,9 +815,25 @@ Weather OS is designed with secure development practices in mind.
 | 📊 Pattern | MVVM |
 | 🌦️ Main Domain | Weather Intelligence |
 | 🛰️ Radar Module | Experimental |
-| 🤖 AI Core | Development Architecture |
+| 🤖 AI Core | Under Development |
 | 🌐 3D Globe | Experimental Concept |
 | 📱 Responsive UI | Yes |
+
+---
+
+# ⚡ Performance Goals
+
+| Feature | Status |
+|---------|:------:|
+| Native Android UI | ✅ |
+| Jetpack Compose Rendering | ✅ |
+| Responsive Interface | ✅ |
+| Modular Architecture | ✅ |
+| Dynamic Weather Visuals | ✅ |
+| Weather Analytics | ✅ |
+| Adaptive Atmosphere Engine | 🚧 Improving |
+| Advanced Radar Processing | 🚧 Improving |
+| AI Weather Intelligence | 🚧 Improving |
 
 ---
 
@@ -789,10 +888,11 @@ Building modern interactive applications and experimenting with intelligent user
 - 📈 Weather Analytics
 - 🛰️ Radar Console
 - 🤖 AI Weather Core
-- 🌍 City Comparison
+- 🌍 Indian City Comparison Architecture
 - 🌐 3D Globe Concept
 - ⚠️ Weather Advisory Interface
 - 🌧️ Dynamic Weather Environment
+- ✨ Environmental Particle Effects
 - 📱 Modern Responsive Android UI
 - 🎨 Futuristic Atmospheric Design
 
@@ -848,6 +948,8 @@ If you find **Weather OS** interesting:
 🐞 Report issues  
 💡 Suggest weather intelligence features  
 🤝 Contribute improvements  
+
+Every contribution and suggestion helps improve the Weather OS project.
 
 ---
 
